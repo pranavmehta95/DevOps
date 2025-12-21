@@ -1,0 +1,61 @@
+/* ===== Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== Body ===== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+/* ===== Navbar ===== */
+header {
+    background: #111;
+    color: #fff;
+    padding: 1rem 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* ===== Sections ===== */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* ===== Projects ===== */
+.project-card {
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+/* ===== Footer ===== */
+footer {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
