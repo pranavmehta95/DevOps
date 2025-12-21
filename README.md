@@ -17,6 +17,7 @@ It includes smooth navigation, colorful sections, and a modern layout without us
 - **HTML5** – Structure of the website  
 - **CSS3** – Styling, layout, gradients, and animations  
 - **Git & GitHub** – Version control and project management  
+<<<<<<< HEAD
 
 ---
 
