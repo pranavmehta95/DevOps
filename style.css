@@ -58,4 +58,69 @@ footer {
 }
 
 
+/* ===== Navbar Container ===== */
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2.5rem;
+    background: linear-gradient(90deg, #ff512f, #dd2476);
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* ===== Brand / Logo ===== */
+.brand a {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+/* ===== Nav Menu ===== */
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+/* ===== Nav Links ===== */
+.nav-item a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+
+/* ===== Animated Underline ===== */
+.nav-item a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0%;
+    height: 3px;
+    background: #ffe259;
+    border-radius: 5px;
+    transition: width 0.3s ease;
+}
+
+.nav-item a:hover::after {
+    width: 100%;
+}
+
+.nav-item a:hover {
+    color: #ffe259;
+}
 
